@@ -1,4 +1,4 @@
-# elastic-search-docker
+# elasticsearch-docker
 
 ## Overview
 Set up Elasticsearch and Kibana.
