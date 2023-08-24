@@ -5,8 +5,8 @@ Set up Elasticsearch and Kibana.
 
 ## setup
 ```
-git clone git@github.com:You-saku/elastic-search-docker.git
-cd elastic-search-docker
+git clone git@github.com:You-saku/elasticsearch-docker.git
+cd elasticsearch-docker
 docker compose up -d
 open http://localhost:5601
 ```
