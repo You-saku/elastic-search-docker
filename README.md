@@ -11,15 +11,15 @@ docker compose up -d
 open http://localhost:5601
 ```
 
-## login
+## login(Kibana)
 ```
-Username：elastic
+Username：kibana_system
 Password：Password
 ```
 
 ## health check
 ```
-curl -X GET -k -u elastic:Password "https://localhost:9200/_cat/health?v&pretty"
+curl -XGET "http://localhost:9200/_cat/health?v&pretty"
 ```
 
 ## reference
